@@ -13,6 +13,14 @@ var selected= "";
 
 function generate(){ 
     var numChar = prompt("How many charaters would you like to use?(8-128)");
+
+        if (numChar < 8){
+            alert("Not enough charaters. Try again.")
+        }
+        else if (numChar > 128){
+            alert("Too many charaters. Try again.")
+            rerender 
+        }
     
 
     
@@ -68,8 +76,8 @@ function generate(){
 
     }
 
-    //validate users password #
-    //if under 8, if over 126
+   
+   
    
 
     
