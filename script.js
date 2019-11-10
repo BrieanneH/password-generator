@@ -15,11 +15,15 @@ function generate(){
     var numChar = prompt("How many charaters would you like to use?(8-128)");
 
         if (numChar < 8){
-            alert("Not enough charaters. Try again.")
+            alert("Not enough charaters. Try again.");
+            return;
+            
         }
         else if (numChar > 128){
-            alert("Too many charaters. Try again.")
-            rerender 
+            alert("Too many charaters. Try again.");
+            return;
+            
+            
         }
     
 
