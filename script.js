@@ -77,8 +77,8 @@ function generate(){
         password= selected[index]+password;
     } 
 
-    alert(password)
-    document.getElementById("text").innerHTML = txt;
+    alert("Your Password is: "+ password)
+    document.getElementById("display").value = password;
 
 }    
   
